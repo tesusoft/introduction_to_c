@@ -16,8 +16,11 @@ int main() {
   return 0;
 
   // To print multiple data format in one printfLine
+  // To print other types, use %c for char and %f for float:
   char myLetter = 'D';
   printf("My number is %d and my letter is %c", myNum1, myLetter);
+
+  //printf("%f is positive", n);
   return 0;
 
 }
